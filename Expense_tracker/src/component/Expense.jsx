@@ -3,8 +3,8 @@ import axios from "axios";
 
 export default function Expense() {
   // const url = "https://67fe04e03da09811b1774265.mockapi.io/krishnaraj/reactnew1";
-
-  const url = "http://localhost:1120";
+  const url = "https://income-expence-tracker-9.onrender.com";
+  // const url = "http://localhost:1120";
   const [username, setUsername] = useState("");
   const [useramount, setUseramount] = useState("");
   const [usertype, setUserType] = useState("Income");
