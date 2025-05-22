@@ -5,15 +5,22 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Josefin Sans", sans-serif;
+
 }
+body{
+  
+   background: linear-gradient(to right, #f6d365, #fda085); 
+
+}
+
 
 #cont2{
   width: 100%;
-  max-height: 200vh;
+  height: 100%;
   display: flex;
   justify-content: center;
   padding: 50px;
-  background: linear-gradient(to right, #f6d365, #fda085);
+  /* background: linear-gradient(to right, #f6d365, #fda085); */
 }
 
 #cont2{
@@ -106,7 +113,7 @@ text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(70, 35, 35, 0.3);
 #tableEx{
  overflow: auto;
  padding: 40px;
- scrollbar-width: none;
+ /* scrollbar-width: none; */
 }
 
 
@@ -116,7 +123,7 @@ text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(70, 35, 35, 0.3);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   margin-left: 20px;
   border-radius: 10px;
-  padding: 10px;
+  /* padding: 10px; */
   border-collapse: collapse;
   background-color:transparent;
   outline: none;
@@ -277,4 +284,35 @@ background: linear-gradient(201deg, rgba(60, 242, 51, 1) 0%, rgba(16, 17, 48, 1)
   transform: scale(1.1);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   transition:0.2s ;
+}
+
+
+@media (Max-width:600px){
+  #AddForm form{
+    margin-top: 20px;
+  }
+
+
+  #ExpAdd{
+    padding: 0;
+  }
+
+  #tableEx{
+    padding: 0;
+    margin: 0;
+  }
+
+  #tableEx table {
+  
+    padding: 0;
+    margin: 0;
+    width: 100%;  }
+
+  table thead tr th{
+    padding: 0;
+    font-size: 15px;
+  }
+  
+
+
 }
